@@ -1,0 +1,67 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: #8D818C;
+}
+
+h3 {
+    color: #8D818C;
+}
+
+.mail {
+    margin: auto;
+    width: 900px;
+    background-color: #FEFFFE;
+    border: 1px soild silver;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 5px 5px 25px #443E44;
+}
+
+input {
+    font-size: 2rem;
+}
+
+input:focus, textarea:focus{
+    background-color: #FEFFFE;
+}
+
+.submit {
+    cursor: pointer;
+    margin: 20px 0;
+    padding: 1rem 0;
+    color: #FEFFFE;
+    background-color: #A5A299;
+    border: none;
+    border-radius: 20px;
+    &:hover {
+        background-color: #B4B8C5;
+    }
+    &:focus {
+        background-color: #E9EBF8;
+    }
+}
+
+ul {
+    padding: 0;
+    padding: none;
+    
+    list-style-type: none;
+    font-weight: bold;
+    a {
+        color: #A5A299;
+        
+        &:hover {
+            color: #443E44;
+            text-decoration: none;
+        }
+    }
+    
+}
+
+body {
+    background-color: #8D818C;
+}
